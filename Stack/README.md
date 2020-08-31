@@ -1,5 +1,5 @@
 ## Stack
-A data structure that follows ***LIFO** (Last in first out)* or FILO policy. Insertion and Deletion operations are done at one end called *TOP*.
+A data structure that follows ***LIFO** (Last in first out)* or **FILO** policy. Insertion and Deletion operations are done at one end called *TOP*.
 
 Operations on Stack
 - Main operations
