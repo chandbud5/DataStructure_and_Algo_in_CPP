@@ -5,7 +5,7 @@
   - Deletion
   - Traversing
   
-**Methods used in the code**
+**Methods used by the class LinkedList**
   - ```insertBegin(int element)``` - Inserting an *element* at beginning of linked list.
   - ```insertEnd(int element)``` - Inserting an *element* at the end of linked list.
   - ```insertAt(int element, int position)``` - Inserting an *element* at a particular *position* in a Linked List.
