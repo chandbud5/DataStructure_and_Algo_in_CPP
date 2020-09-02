@@ -6,9 +6,14 @@ class Stack{
         int top=-1, capacity;
         int *arr;
 
+        Stack(){
+            CreateStack();
+        }
+
         void CreateStack(){
             cout << "Enter the size of Stack" << endl;
             cin >> capacity;
+            top = -1;
             arr = new int[capacity];
         }
 
@@ -61,12 +66,12 @@ class Stack{
 int main()
 {
     Stack s;
-    s.CreateStack();
     s.push(10);
     s.push(8);
     s.push(9);
     s.push(13);
     s.push(15);
+    s.CreateStack();
     s.push(12);
     cout << "After Pushing elements to the Stack" << endl;
     cout << "Currently Top is at " << s.Top() << endl;
