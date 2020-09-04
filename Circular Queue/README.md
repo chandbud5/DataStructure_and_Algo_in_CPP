@@ -8,3 +8,4 @@ It overcomes the disadvantage of simple Queue.
   - ```CreateQueue()``` - Creates a queue of size defined by user. By default it will be called by default constructor
   - ```isEmpty()``` - To check whether queue is empty or not
   - ```isFull()``` - To check whether queue is full or not
+  - ```display()``` - To traverse through the queue and print all the elements of it
