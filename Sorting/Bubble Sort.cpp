@@ -4,7 +4,7 @@ using namespace std;
 int main(){
 
     int n;
-    cout << "Enter the capacity of queue" << endl;
+    cout << "Enter the capacity of array" << endl;
     cin >> n;
 
     int arr[n];
